@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            map:cameraTargetLat="19.165483789931418"
+            map:cameraTargetLng="-96.11413851574602"
+            map:cameraZoom="18.5" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/logo"
+            android:alpha="0.6"/>
+
+        <Button
+            android:id="@+id/btnP1"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:alpha="0.9"
+            android:text="P1"
+            android:translationX="300dp"
+            android:translationY="10dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnP2"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:alpha="0.9"
+            android:text="P2"
+            android:translationX="300dp"
+            android:translationY="55dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnP3"
+            android:layout_width="75dp"
+            android:layout_height="48dp"
+            android:alpha="0.9"
+            android:text="P3"
+            android:translationX="300dp"
+            android:translationY="100dp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+ <!--- map:cameraBearing="112.5"
+     map:cameraTilt="30"
+     map:mapType="normal"
+     map:uiCompass="true"
+     map:uiRotateGestures="true"
+     map:uiScrollGestures="true"
+     map:uiTiltGestures="true"
+     map:uiZoomControls="true"
+     map:uiZoomGestures="true"/>
+ -->

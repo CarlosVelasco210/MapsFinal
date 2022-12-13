@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "74586793730",
+    "firebase_url": "https://mapsschool-266c5-default-rtdb.firebaseio.com",
+    "project_id": "mapsschool-266c5",
+    "storage_bucket": "mapsschool-266c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74586793730:android:088d0405a05cd945b9c41b",
+        "android_client_info": {
+          "package_name": "com.example.maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74586793730-lm3u27kin0bk5htao60qv5pv7i08tjle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUzAemrdUZGYMXWP9i1ffwuNyQTpiUhnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74586793730-lm3u27kin0bk5htao60qv5pv7i08tjle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

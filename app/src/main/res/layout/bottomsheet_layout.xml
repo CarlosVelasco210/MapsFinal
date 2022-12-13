@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:id="@+id/btmSheet"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:clipToPadding="true"
+    android:background="@android:color/white"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/bottom_sheet_background"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="280dp"
+        app:layout_behavior="como.google.android.material.bottomsheet.BottomSheetBehavior"
+        android:id="@+id/bottom_sheet1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:clipToPadding="true"
+            android:background="@android:color/white">
+                <TextView
+                    android:id="@+id/tvPrueba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Esto es una prueba" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
